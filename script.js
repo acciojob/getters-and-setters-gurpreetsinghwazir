@@ -5,11 +5,15 @@ class Person {
 		this.age =age;
 	}
 
-	getName(name){
-		return (`${this.name}`)
+	getName() {
+		return this.name; // Removed the unnecessary parameter and returned the name directly
 	}
 
-	setAge(age){
+	getAge() {
+		return this.age; // Added method to get the age
+	}
+
+	setAge(age) {
 		this.age = age;
 	}
 	
