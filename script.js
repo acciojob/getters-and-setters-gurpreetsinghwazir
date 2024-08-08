@@ -5,8 +5,8 @@ class Person {
 		this.age =age;
 	}
 
-	getName(){
-		return this.name
+	getName(name){
+		return (`${this.name}`)
 	}
 
 	setAge(age){
