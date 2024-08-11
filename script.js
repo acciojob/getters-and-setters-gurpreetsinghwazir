@@ -5,15 +5,11 @@ class Person {
 		this.age =age;
 	}
 
-	getName() {
+	getName(name) {
 		return this.name; // Removed the unnecessary parameter and returned the name directly
 	}
 
-	getAge() {
-		return this.age; // Added method to get the age
-	}
-
-	setAge(age) {
+		setAge(age) {
 		this.age = age;
 	}
 	
@@ -30,6 +26,7 @@ class Teacher extends Person {
 		console.log(`${this.name} is teaching`)
 	}
 }
+
 
 // Do not change the code below this line
 window.Person = Person;
