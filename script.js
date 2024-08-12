@@ -16,12 +16,23 @@ class Person {
 }
 
 class Student extends Person {
+	constructor(name){
+		super(name)
+	  this.name=name;	
+	}
+	
 	study(){
+		
 		console.log(`${this.name} is studying`)
 	}
 }
 
 class Teacher extends Person {
+constructor(name){
+		super(name)
+	  this.name=name;	
+	}
+	
 	teach(){
 		console.log(`${this.name} is teaching`)
 	}
