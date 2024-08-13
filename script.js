@@ -2,18 +2,11 @@ class Person {
 	constructor(name, age){
 		this.name=name;
 		this.age =age;
-	}
-	getName(name) {
-		return this.name; // Removed the unnecessary parameter and returned the name directly
-	}
-	setAge(age) {
-	this.age = age;
-	}
-}
+	}}
 
 class Student extends Person {
-	constructor(name,age ){
-	super(name,age)
+	constructor(name){
+	super(name)
     
 	}
 	study(){
@@ -22,8 +15,8 @@ class Student extends Person {
 }
 
 class Teacher extends Person {
-	constructor(name,age ){
-	super(name,age)
+	constructor(name ){
+	super(name)
 	
 }
 	teach(){
