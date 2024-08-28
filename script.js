@@ -1,17 +1,14 @@
 class Person {
-#name
-#age
-	
     constructor(name, age) {
         this.name = name;
         this.age = age;
     }
 
-    get Name() {
+    get name() {
         return this.name;
     }
 
-    set Age(age) {
+    set age(age) {
         this.age = age;
     }
 }
