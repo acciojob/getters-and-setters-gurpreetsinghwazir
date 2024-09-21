@@ -5,7 +5,7 @@ class Person {
     }
 
     get Name() {
-        return this.name;
+        return `${this.name}`;
     }
 
     set Age(age) {
