@@ -20,6 +20,9 @@ class Student extends Person {
 }
 
 class Teacher extends Person {
+	constructor(name){
+		super (name);
+	}
     teach() {
         console.log(`${this.name} is teaching`);
     }
