@@ -11,7 +11,7 @@ class Person {
 
     // Setter for age
     set age(age) {
-        this._age = age;
+        this.age = age;
     }
 }
 
